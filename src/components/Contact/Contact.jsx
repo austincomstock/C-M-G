@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contact.css";
 
 // REACT-ICONS IMPORTS
 import { BsFacebook, BsInstagram, BsTelephone } from "react-icons/bs";
@@ -6,13 +7,16 @@ import { MdOutlineMail } from "react-icons/md";
 
 export const Contact = () => {
   return (
-    <div>
+    <div className="Contact1">
       <h2>Contact</h2>
       <p>
         Contact us today via email, social and phone. You can also schdule an
         appointment.
       </p>
-      <ul className="ContactConnectUL">
+      <ul className="ContactUL">
+        <li>
+          <BsTelephone /> 800-000-000
+        </li>
         <li>
           <a
             href="https://www.facebook.com/cmgexcavation"
@@ -32,9 +36,6 @@ export const Contact = () => {
           >
             <BsInstagram /> Instagram
           </a>
-        </li>
-        <li>
-          <BsTelephone /> 800-000-000
         </li>
         <li>
           <a
