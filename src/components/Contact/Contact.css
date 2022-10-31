@@ -1,0 +1,13 @@
+.ContactUL {
+    list-style: none;
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px;
+}
+
+
+.HLink {
+    color: #fff;
+}
