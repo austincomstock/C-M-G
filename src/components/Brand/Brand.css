@@ -1,0 +1,10 @@
+.Brand1 {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+.BrandLogo {
+    height: 25vmin;
+    padding-right: 5px;
+}

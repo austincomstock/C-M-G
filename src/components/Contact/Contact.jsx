@@ -9,15 +9,12 @@ export const Contact = () => {
   return (
     <div className="Contact1">
       <h2>Contact</h2>
-      <p>
-        Contact us today via email, social and phone. You can also schdule an
-        appointment.
-      </p>
+      <p>Contact us today via email, social and phone.</p>
       <ul className="ContactUL">
-        <li>
+        <li className="ContactLI">
           <BsTelephone /> 800-000-000
         </li>
-        <li>
+        <li className="ContactLI">
           <a
             href="https://www.facebook.com/cmgexcavation"
             target="_blank"
@@ -27,7 +24,7 @@ export const Contact = () => {
             <BsFacebook /> Facebook
           </a>
         </li>
-        <li>
+        <li className="ContactLI">
           <a
             href="https://www.instagram.com/cmg_excavation_/"
             target="_blank"
@@ -37,7 +34,7 @@ export const Contact = () => {
             <BsInstagram /> Instagram
           </a>
         </li>
-        <li>
+        <li className="ContactLI">
           <a
             href="mailto:theconstructionmanagementgroup@gmail.com"
             target="_blank"
