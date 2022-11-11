@@ -1,19 +1,20 @@
-// import cmgLogo from "./Images/cmgLogo.jpg";
 import "./App.css";
 
 // COMPONENTS
-import { Navigation } from "./components/Navigation/Navigation";
+import { Brand } from "./components/Brand/Brand";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
+import { Gallery } from "./components/Gallery/Gallery";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navigation />
+        <Brand />
+        <About />
+        <Contact />
       </header>
-      <About />
-      <Contact />
+      <Gallery />
     </div>
   );
 }
