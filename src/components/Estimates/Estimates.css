@@ -1,0 +1,10 @@
+.Estimates1 {
+    background-color: gray;
+    border: solid white;
+    padding: 2%;
+}
+
+#EstimateForm {
+    display: flex;
+    flex-direction: column;
+}
