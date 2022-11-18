@@ -6,6 +6,7 @@ import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
 import { Gallery } from "./components/Gallery/Gallery";
 import { Estimates } from "./components/Estimates/Estimates";
+import { ServiceArea } from "./components/ServiceArea/ServiceArea";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Contact />
       <Gallery />
       <Estimates />
+      <ServiceArea />
     </div>
   );
 }
