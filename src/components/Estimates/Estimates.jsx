@@ -6,6 +6,7 @@ export const Estimates = () => {
     <div className="Estimates1">
       <h2>Estimates</h2>
       {/* FORM */}
+      {/* Docs https://formsubmit.co/ */}
       <form
         id="EstimateForm"
         // action="https://formsubmit.co/theconstructionmanagementgroup@gmail.com"
@@ -35,6 +36,23 @@ export const Estimates = () => {
           Tell Us About Your Project:
           <input type="text" name="project information" />
         </label>
+        {/* Start of type="hidden" inputs */}
+        <label className="EstimateLabel">
+          <input
+            type="hidden"
+            name="_next"
+            // value="https://yourdomain.co/thanks.html" // how can you link this to your EstimatesThankYou.jsx?
+            value="https://c-m-g.vercel.app"
+          />
+        </label>
+        <label className="EstimateLabel">
+          <input type="hidden" name="_subject" value="New submission!" />
+        </label>
+        <label className="EstimateLabel">
+          {/* Honeypot to avoid spam by fooling scrapers */}
+          <input type="text" name="_honey" style={{ display: "none" }} />
+        </label>
+        {/* End of type="hidden" inputs */}
         <label className="EstimateLabel">
           <input
             type="submit"
