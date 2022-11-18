@@ -6,7 +6,11 @@ export const Estimates = () => {
     <div className="Estimates1">
       <h2>Estimates</h2>
       {/* FORM */}
-      <form id="EstimateForm" method="GET">
+      <form
+        id="EstimateForm"
+        action="https://formsubmit.co/theconstructionmanagementgroup@gmail.com"
+        method="POST"
+      >
         <label className="EstimateLabel">
           First Name: <input type="text" name="firstname" />
         </label>
