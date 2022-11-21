@@ -14,8 +14,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Home /> */}
-
         <section>
           <h1>Construction Management Group</h1>
           <img src={cmgLogo} className="BrandLogo" alt="logo" />
@@ -54,6 +52,7 @@ function App() {
 
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={null} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />
