@@ -4,3 +4,13 @@
   background-color: gray;
   border: solid orange;
 }
+
+.NavigationUL {
+  list-style: none;
+  display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 10px;
+
+}
