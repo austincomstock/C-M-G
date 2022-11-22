@@ -1,5 +1,7 @@
 .ServiceArea1 {
- text-align: center;   
+ text-align: center; 
+ height: 100vh;  
+ margin: 2%;
 }
 
 .cmgServiceAreaImage {
