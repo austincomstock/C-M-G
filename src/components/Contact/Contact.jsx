@@ -8,8 +8,8 @@ import { MdOutlineMail } from "react-icons/md";
 export const Contact = () => {
   return (
     <div className="Contact1">
-      <h2>Contact</h2>
-      <p>Contact us today via email, social and phone.</p>
+      {/* <h2>Contact</h2>
+      <p>Contact us today via email, social and phone.</p> */}
       <ul className="ContactUL">
         <li className="ContactLI">
           <BsTelephone /> 800-000-000
