@@ -4,6 +4,6 @@
 
 .cmgServiceAreaImage {
   border: solid thin green;
-  text-align: center;
-  max-width: 350px;
+  max-width: 100%;
+  height: auto;
 }
