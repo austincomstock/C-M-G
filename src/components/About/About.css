@@ -1,6 +1,4 @@
-.AboutImg {
-    height: auto;
-    width: auto;
-    max-height: 300px;
-    max-width: 180px;
+.About1 {
+    height: 100vh;
+    margin: 2%;
 }
