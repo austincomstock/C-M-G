@@ -1,8 +1,18 @@
 .App {
-  text-align: center;
-  padding: 5px;
   background-color: gray;
-  border: solid orange;
+  border: solid thin orange;
+  height: 100%;
+}
+
+
+.Brand {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.BrandLogo {
+  height: 200px;
+  width: auto;
 }
 
 .NavigationUL {
