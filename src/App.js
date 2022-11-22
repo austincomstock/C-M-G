@@ -14,23 +14,19 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <section>
-          <h1>Construction Management Group</h1>
-          <img src={cmgLogo} className="BrandLogo" alt="logo" />
-        </section>
-
         {/* Navigation */}
         <nav>
           <ul className="NavigationUL">
             {/* <li>
               <Link to="/">Home</Link>
             </li> */}
+            {/* <li>
+              <Link to="/contact">Contact</Link>
+            </li> */}
             <li>
               <Link to="/about">About</Link>
             </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
+
             <li>
               <Link to="/gallery">Gallery</Link>
             </li>
@@ -43,9 +39,14 @@ function App() {
           </ul>
         </nav>
 
+        <section className="Brand">
+          {/* <h1>Construction Management Group</h1> */}
+          <img src={cmgLogo} className="BrandLogo" alt="logo" />
+        </section>
+
         {/* <Home /> */}
+        <Contact />
         {/* <About /> */}
-        {/* <Contact /> */}
         {/* <Gallery /> */}
         {/* <Estimates /> */}
         {/* <ServiceArea /> */}
@@ -53,8 +54,8 @@ function App() {
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
           <Route path="/" element={null} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/estimates" element={<Estimates />} />
           <Route path="/servicearea" element={<ServiceArea />} />
