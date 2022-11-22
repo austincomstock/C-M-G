@@ -14,43 +14,63 @@ import sodRemoval from "../Images/sod-removal.jpg";
 
 export const Gallery = () => {
   return (
-    <div className="Gallery1">
-      <h2>Gallery</h2>
-      <div className="Gallery2">
-        <img
-          className="GalleryImg"
-          src={afterGravel1}
-          alt="Gravel Parking Area"
-        />
-        <img
-          className="GalleryImg"
-          src={afterGravel2}
-          alt="Gravel Parking Strip"
-        />
-        <img className="GalleryImg" src={fenceCrossland} alt="Cedar Fence" />
-        <img className="GalleryImg" src={fenceGreen} alt="Fence Mid Build" />
-        <img
-          className="GalleryImg"
-          src={miniXFrenchDrain}
-          alt="Mini Excavator French Drain"
-        />
-        <img
-          className="GalleryImg"
-          src={miniXTrampoline}
-          alt="Mini Excavator In Ground Trampoline"
-        />
-        <img
-          className="GalleryImg"
-          src={miniXTreeStump}
-          alt="Mini Excavator Tree Stump"
-        />
-        <img
-          className="GalleryImg"
-          src={rollOffDumpster}
-          alt="Roll Off Dumpster"
-        />
-        <img className="GalleryImg" src={sodRemoval} alt="Roll Off Dumpster" />
+    <>
+      <div className="Gallery1">
+        <h2>Gallery</h2>
+        <div className="row">
+          <div className="column">
+            <img
+              className="galleryImg"
+              src={afterGravel1}
+              alt="Gravel Parking Area"
+            />
+            <img
+              className="galleryImg"
+              src={afterGravel2}
+              alt="Gravel Parking Strip"
+            />
+            <img
+              className="galleryImg"
+              src={fenceCrossland}
+              alt="Cedar Fence"
+            />
+          </div>
+          <div className="column">
+            <img
+              className="galleryImg"
+              src={fenceGreen}
+              alt="Fence Mid Build"
+            />
+            <img
+              className="galleryImg"
+              src={miniXFrenchDrain}
+              alt="Mini Excavator French Drain"
+            />
+            <img
+              className="galleryImg"
+              src={miniXTrampoline}
+              alt="Mini Excavator In Ground Trampoline"
+            />
+          </div>
+          <div className="column">
+            <img
+              className="galleryImg"
+              src={miniXTreeStump}
+              alt="Mini Excavator Tree Stump"
+            />
+            <img
+              className="galleryImg"
+              src={rollOffDumpster}
+              alt="Roll Off Dumpster"
+            />
+            <img
+              className="galleryImg"
+              src={sodRemoval}
+              alt="Roll Off Dumpster"
+            />
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
