@@ -1,7 +1,9 @@
 .Estimates1 {
-    background-color: gray;
-    border: solid white;
+    background-color: lightgray;
+    margin: 5px;
+    border: solid thin #000;
     padding: 2%;
+    height: 100vh;
 }
 
 #EstimateForm {
