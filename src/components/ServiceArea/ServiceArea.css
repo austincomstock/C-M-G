@@ -1,11 +1,10 @@
 .ServiceArea1 {
  text-align: center; 
- height: 100vh;  
  margin: 2%;
 }
 
 .cmgServiceAreaImage {
-  border: solid thin green;
+  border: solid thin #00FF00;
   max-width: 100%;
   height: auto;
 }
