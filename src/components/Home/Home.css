@@ -1,0 +1,15 @@
+.Home1 {
+    margin: 2%;
+    /* border: solid red; */
+    padding: 2%;
+    text-align: center;
+}
+
+.CarouselImg {
+    max-width: 50%;
+    height: auto;
+    min-height: 325px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
