@@ -1,13 +1,14 @@
 .Gallery1 {
     text-align: center;
-    margin-top: 2%;
-    height: 100%;
+    margin: 2%;
+    border: solid red;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 2%;
     padding: 0 4px;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .galleryImg {
-    border: solid thin #fff;
+    border: solid thin #000;
     width: 100%;
     margin-top: 2%;
 }
