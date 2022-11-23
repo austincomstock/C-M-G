@@ -1,27 +1,11 @@
-.App {
-  background-color: gray;
-  border: solid thin orange;
-  /* height: 100%; */
-  height: 100vh;
-}
-
-
-.Brand {
-  margin-bottom: 2%;
-  text-align: center;
-}
+/* .App {
+  border: solid orange;
+} */
 
 .BrandLogo {
-  height: 200px;
+  display: block;
   width: auto;
-}
-
-.NavigationUL {
-  list-style: none;
-  display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      padding: 10px;
-
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
