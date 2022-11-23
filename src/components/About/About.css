@@ -1,6 +1,6 @@
 .About1 {
-    background-color: gray;
-    /* height: 100%; */
-    /* height: 100vh; */
     margin: 2%;
+    border: solid red;
+    padding: 2%;
 }
+
