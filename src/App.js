@@ -1,9 +1,11 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import cmgLogo from "./components/Images/cmgLogo.jpg";
+import "bootstrap/dist/css/bootstrap.min.css"; //Bootstrap CSS for Carousel https://react-bootstrap.github.io/getting-started/introduction/
 
 // COMPONENTS
-// import { Home } from "./components/Home/Home";
+import { Navigation } from "./components/Navigation/Navigation";
+import { Home } from "./components/Home/Home";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
 import { Gallery } from "./components/Gallery/Gallery";
@@ -12,37 +14,11 @@ import { ServiceArea } from "./components/ServiceArea/ServiceArea";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        {/* Navigation */}
-        <nav>
-          <ul className="NavigationUL">
-            {/* <li>
-              <Link to="/">Home</Link>
-            </li> */}
-            {/* <li>
-              <Link to="/contact">Contact</Link>
-            </li> */}
-            <li>
-              <Link to="/about">About</Link>
-            </li>
+    <div className="App">
+      <Router>
+        <Navigation />
 
-            <li>
-              <Link to="/gallery">Gallery</Link>
-            </li>
-            <li>
-              <Link to="/estimates">Estimates</Link>
-            </li>
-            <li>
-              <Link to="/servicearea">Service Area</Link>
-            </li>
-          </ul>
-        </nav>
-
-        <section className="Brand">
-          {/* <h1>Construction Management Group</h1> */}
-          <img src={cmgLogo} className="BrandLogo" alt="logo" />
-        </section>
+        <img src={cmgLogo} className="BrandLogo" alt="logo" />
 
         {/* <Home /> */}
         <Contact />
@@ -52,16 +28,16 @@ function App() {
         {/* <ServiceArea /> */}
 
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          <Route path="/" element={null} />
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={null} /> */}
           {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/estimates" element={<Estimates />} />
           <Route path="/servicearea" element={<ServiceArea />} />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
