@@ -18,7 +18,7 @@ export const Home = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            {/* <h3>First slide label</h3> */}
             <p>Before</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -30,7 +30,7 @@ export const Home = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            {/* <h3>Second slide label</h3> */}
             <p>After</p>
           </Carousel.Caption>
         </Carousel.Item>
