@@ -14,27 +14,50 @@ export const Estimates = () => {
         method="POST"
       >
         <label className="EstimateLabel">
-          First Name: <input type="text" name="firstname" />
+          <input type="text" placeholder="First Name" name="firstname" />
         </label>
         <label className="EstimateLabel">
-          Last Name: <input type="text" name="lastname" />
+          <input type="text" placeholder="Last Name" name="lastname" />
         </label>
         <label className="EstimateLabel">
-          Email: <input type="email" name="email" required />
+          <input
+            type="email"
+            placeholder="Email Address"
+            name="email"
+            required
+          />
         </label>
         <label className="EstimateLabel">
-          Phone Number: <input type="phone" name="phone" required />
+          <input
+            type="phone"
+            placeholder="Phone Number"
+            name="phone"
+            required
+          />
         </label>
         <label className="EstimateLabel">
-          Street Address {"(123 Main St.)"}:
-          <input type="address" name="address" required />
+          <input
+            type="address"
+            placeholder="Street Address (123 Main St.)"
+            name="address"
+            required
+          />
         </label>
         <label className="EstimateLabel">
-          Zip Code: <input type="zip code" name="zip code" required />
+          <input
+            type="zip code"
+            placeholder="Zip Code"
+            name="zip code"
+            required
+          />
         </label>
         <label className="EstimateLabel">
-          Tell Us About Your Project:
-          <input type="text" name="project information" />
+          <input
+            type="text"
+            placeholder="Tell Us About Your Project"
+            name="project information"
+            className="ProjectInfo"
+          />
         </label>
         {/* Start of type="hidden" inputs */}
         <label className="EstimateLabel">
