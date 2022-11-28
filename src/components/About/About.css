@@ -1,6 +1,7 @@
 .About1 {
+    background-color: #D3D3D3;
     margin: 2%;
-    border: solid red;
+    border: solid thin #000;
     padding: 2%;
 }
 
