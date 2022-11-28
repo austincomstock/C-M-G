@@ -8,8 +8,8 @@ import twedenBackyardAfter from "../Images/tweden-backyard-after.jpg";
 
 export const Home = () => {
   return (
-    <div className="Home1">
-      <h1>Construction Management Group</h1>
+    <div className="HomeCarousel1">
+      {/* <h2>Construction Management Group</h2> */}
       <Carousel>
         <Carousel.Item>
           <img
@@ -19,7 +19,8 @@ export const Home = () => {
           />
           <Carousel.Caption>
             {/* <h3>First slide label</h3> */}
-            <p>Before</p>
+            <h3>Before</h3>
+            {/* <p>Before</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -31,7 +32,8 @@ export const Home = () => {
 
           <Carousel.Caption>
             {/* <h3>Second slide label</h3> */}
-            <p>After</p>
+            <h3>After</h3>
+            {/* <p>After</p> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
