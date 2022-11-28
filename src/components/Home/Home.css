@@ -1,15 +1,17 @@
-.Home1 {
-    margin: 2%;
-    /* border: solid red; */
-    padding: 2%;
-    text-align: center;
+.HomeCarousel1 {
+    background-color: #D3D3D3;
+    margin: 1%;
+    border: solid thin #000;
+    padding: 1%;
 }
 
 .CarouselImg {
-    max-width: 90%;
-    height: auto;
-    min-height: 325px;
-    max-height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+  margin: 1%; 
+  border: solid thin #000;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
