@@ -1,11 +1,27 @@
 .Estimates1 {
-    background-color: lightgray;
-    margin: 2%;
-    border: solid thin #000;
-    padding: 2%;
+  text-align: center;
+  background-color: #D3D3D3;
+  margin: 2%;
+  border: solid thin #000;
+  padding: 2%;
 }
 
 #EstimateForm {
     display: flex;
     flex-direction: column;
+    padding: 2%;
+}
+
+input {
+    min-width: 280px;
+    margin: 1%;
+}
+
+.ProjectInfo {
+  min-height: 50px;
+}
+
+.EstimateInputSubmit {
+    min-height: 75px;
+    min-width: 300px;
 }
