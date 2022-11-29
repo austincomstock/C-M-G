@@ -20,16 +20,10 @@ function App() {
 
         <img src={cmgLogo} className="BrandLogo" alt="logo" />
 
-        {/* <Home /> */}
         <Contact />
-        {/* <About /> */}
-        {/* <Gallery /> */}
-        {/* <Estimates /> */}
-        {/* <ServiceArea /> */}
 
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/" element={null} /> */}
           {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
