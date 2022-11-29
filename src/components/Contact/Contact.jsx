@@ -12,7 +12,14 @@ export const Contact = () => {
       <p>Contact us today via email, social and phone.</p> */}
       <ul className="ContactUL">
         <li className="ContactLI">
-          <BsTelephone /> 800-000-000
+          <a
+            href="tel:800-000-000"
+            target="_blank"
+            rel="noreferrer"
+            className="HLink"
+          >
+            <BsTelephone /> 800-000-000
+          </a>
         </li>
         <li className="ContactLI">
           <a
