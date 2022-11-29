@@ -4,9 +4,10 @@
     margin-right: auto;
     border: solid thin #000;
     padding: 2%;
-    width: 50%;
+    width: 75%;
 }
 
-h2 {
+h2, p {
     text-align: center;
 }
+
