@@ -27,7 +27,6 @@ export const Home = () => {
             src={twedenBackyardAfter}
             alt="Second slide"
           />
-
           <Carousel.Caption>
             <h3>After</h3>
           </Carousel.Caption>
