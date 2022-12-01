@@ -5,27 +5,33 @@ import { Link } from "react-router-dom";
 export const Navigation = () => {
   return (
     <div className="Navigation1">
-      {/* <h3>Navigation</h3> */}
       <nav>
         <ul className="NavigationUL">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="navLink">
+              Home
+            </Link>
           </li>
-          {/* <li>
-              <Link to="/contact">Contact</Link>
-            </li> */}
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" className="navLink">
+              About
+            </Link>
           </li>
 
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/gallery" className="navLink">
+              Gallery
+            </Link>
           </li>
           <li>
-            <Link to="/estimates">Estimates</Link>
+            <Link to="/estimates" className="navLink">
+              Estimates
+            </Link>
           </li>
           <li>
-            <Link to="/servicearea">Service Area</Link>
+            <Link to="/servicearea" className="navLink">
+              Service Area
+            </Link>
           </li>
         </ul>
       </nav>
