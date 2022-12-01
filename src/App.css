@@ -6,8 +6,6 @@
 .BrandLogo {
   display: block;
   width: auto;
-  height: 200px;
-  margin-top: 3%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 250px;
+  margin: 1% auto;
 }
