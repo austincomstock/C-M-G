@@ -1,14 +1,18 @@
 .ContactUL {
+    margin-bottom: 0;
+    padding-left: 0;
     list-style: none;
     display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding: 10px;
 }
 
 .ContactLI {
-    padding: 20px;
+    margin: 1%;
+    padding: 10px;
+    text-align: center;
+    width: 153px;
 }
 
 .HLink {
