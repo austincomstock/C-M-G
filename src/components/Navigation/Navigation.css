@@ -2,6 +2,15 @@
     margin: 2%;
 }
 
+nav {
+    background: #2c5364;
+    border: solid thin #1E3A46;
+}
+
+.navLink {
+    color: #7AAEC5;
+}
+
 .NavigationUL {
     list-style: none;
     display: flex;
@@ -9,5 +18,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }
