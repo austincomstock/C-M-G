@@ -1,13 +1,13 @@
 .HomeCarousel1 {
-  margin: 1%;
+  margin: 2%;
 }
 
 .CarouselImg {
   border: solid thin #000;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   height: auto;
-  max-height: 700px;
+  max-height: 500px;
   margin-left: auto;
   margin-right: auto;
 }
