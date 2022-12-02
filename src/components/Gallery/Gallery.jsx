@@ -20,13 +20,13 @@ export const Gallery = () => {
         <div className="column">
           <img
             className="galleryImg"
-            src={afterGravel1}
-            alt="Gravel Parking Area"
+            src={miniXFrenchDrain}
+            alt="Mini Excavator French Drain"
           />
           <img
             className="galleryImg"
-            src={afterGravel2}
-            alt="Gravel Parking Strip"
+            src={rollOffDumpster}
+            alt="Roll Off Dumpster"
           />
           <img className="galleryImg" src={sodRemoval} alt="Sod Removal" />
         </div>
@@ -34,13 +34,13 @@ export const Gallery = () => {
           <img className="galleryImg" src={fenceGreen} alt="Fence Mid Build" />
           <img
             className="galleryImg"
-            src={miniXFrenchDrain}
-            alt="Mini Excavator French Drain"
+            src={miniXTrampoline}
+            alt="Mini Excavator In Ground Trampoline"
           />
           <img
             className="galleryImg"
-            src={miniXTrampoline}
-            alt="Mini Excavator In Ground Trampoline"
+            src={afterGravel1}
+            alt="Gravel Parking Area"
           />
         </div>
         <div className="column">
@@ -51,8 +51,8 @@ export const Gallery = () => {
           />
           <img
             className="galleryImg"
-            src={rollOffDumpster}
-            alt="Roll Off Dumpster"
+            src={afterGravel2}
+            alt="Gravel Parking Strip"
           />
           <img className="galleryImg" src={fenceCrossland} alt="Cedar Fence" />
         </div>
