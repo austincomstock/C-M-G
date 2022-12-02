@@ -64,8 +64,7 @@ export const Estimates = () => {
           <input
             type="hidden"
             name="_next"
-            // value="https://yourdomain.co/thanks.html" // how can you link this to your EstimatesThankYou.jsx?
-            value="https://c-m-g.vercel.app"
+            value="https://c-m-g.vercel.app/estimatesthankyou"
           />
         </label>
         <label className="EstimateLabel">
