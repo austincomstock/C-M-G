@@ -28,7 +28,7 @@ export const Gallery = () => {
             src={afterGravel2}
             alt="Gravel Parking Strip"
           />
-          <img className="galleryImg" src={fenceCrossland} alt="Cedar Fence" />
+          <img className="galleryImg" src={sodRemoval} alt="Sod Removal" />
         </div>
         <div className="column">
           <img className="galleryImg" src={fenceGreen} alt="Fence Mid Build" />
@@ -54,11 +54,7 @@ export const Gallery = () => {
             src={rollOffDumpster}
             alt="Roll Off Dumpster"
           />
-          <img
-            className="galleryImg"
-            src={sodRemoval}
-            alt="Roll Off Dumpster"
-          />
+          <img className="galleryImg" src={fenceCrossland} alt="Cedar Fence" />
         </div>
       </div>
     </div>

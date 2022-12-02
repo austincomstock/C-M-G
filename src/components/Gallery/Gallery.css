@@ -20,9 +20,9 @@
 }
 
 .galleryImg {
+    margin-top: 2%;
     border: solid thin #000;
     width: 100%;
-    margin-top: 2%;
 }
 
 /* Responsive layout - makes one column-layout instead of three columns */
