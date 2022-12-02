@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div className="About1">
       <h2>About</h2>
-      <p>Construction Management Group Specializes In Residential Projects</p>
+      <p>Construction Management Group specializes in residential projects.</p>
       <ul className="AboutUL">
         <li className="AboutLI">Gravel Driveways & Parking Strips</li>
         <li className="AboutLI">Sod Removal & Installation</li>
