@@ -10,6 +10,7 @@ import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
 import { Gallery } from "./components/Gallery/Gallery";
 import { Estimates } from "./components/Estimates/Estimates";
+import { EstimatesThankYou } from "./components/EstimatesThankYou/EstimatesThankYou";
 import { ServiceArea } from "./components/ServiceArea/ServiceArea";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/estimates" element={<Estimates />} />
+          <Route path="/estimatesthankyou" element={<EstimatesThankYou />} />
           <Route path="/servicearea" element={<ServiceArea />} />
         </Routes>
       </Router>
