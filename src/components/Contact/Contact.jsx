@@ -21,12 +21,12 @@ export const Contact = () => {
         </li>
         <li className="ContactLI">
           <a
-            href="https://www.facebook.com/cmgexcavation"
+            href="mailto:theconstructionmanagementgroup@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="HLink"
           >
-            <BsFacebook /> Facebook
+            <MdOutlineMail /> Email
           </a>
         </li>
         <li className="ContactLI">
@@ -41,12 +41,12 @@ export const Contact = () => {
         </li>
         <li className="ContactLI">
           <a
-            href="mailto:theconstructionmanagementgroup@gmail.com"
+            href="https://www.facebook.com/cmgexcavation"
             target="_blank"
             rel="noreferrer"
             className="HLink"
           >
-            <MdOutlineMail /> Email
+            <BsFacebook /> Facebook
           </a>
         </li>
       </ul>
