@@ -3,13 +3,12 @@ import "./Home.css";
 import Carousel from "react-bootstrap/Carousel"; //Bootstrap for Carousel https://react-bootstrap.github.io/components/carousel/
 
 // Images
-import twedenBackyardBefore from "../Images/tweden-backyard-before.jpg";
-import twedenBackyardAfter from "../Images/tweden-backyard-after.jpg";
+import twedenBackyardBefore from "../Images/tweden-backyard-before-min.jpg";
+import twedenBackyardAfter from "../Images/tweden-backyard-after-min.jpg";
 
 export const Home = () => {
   return (
     <div className="HomeCarousel1">
-      {/* <h2>Construction Management Group</h2> */}
       <Carousel>
         <Carousel.Item>
           <img
