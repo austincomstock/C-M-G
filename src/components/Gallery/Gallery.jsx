@@ -56,6 +56,7 @@ export const Gallery = () => {
             className="galleryImg"
             src={miniXTreeStump}
             alt="Mini Excavator Tree Stump"
+            loading="lazy"
           />
           <img
             className="galleryImg"
