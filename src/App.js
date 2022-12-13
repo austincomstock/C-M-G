@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import cmgLogo from "./components/Images/cmgLogo.jpg";
+import cmgLogo from "./components/Images/cmgLogo.png";
 import "bootstrap/dist/css/bootstrap.min.css"; //Bootstrap CSS for Carousel https://react-bootstrap.github.io/getting-started/introduction/
 
 // COMPONENTS
